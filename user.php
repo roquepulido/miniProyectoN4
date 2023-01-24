@@ -2,7 +2,7 @@
 include("./templates/headhtml.php");
 ?>
 <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid ms-5">
+    <div class="container-fluid d-flex aling-items-center justify-content-space ms-5">
         <a class="navbar-brand" href="#"><img class="logodev" src="./img/devchallenges.svg" alt="logoDev" /></a>
 
 
