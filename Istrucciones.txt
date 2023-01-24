@@ -1,0 +1,11 @@
+Bienvenido a devchallenges.io
+Mini proyecto  Full PHP 
+
+Paso 1: crea un nuevo repositorio en github
+Paso 2: copie los recursos, README.md a su repositorio
+Paso 3: inicie sesión en Figma para verificar la fuente, el color, el espaciado, etc.
+https://www.figma.com/file/ZM0DPZbzK39o3rqwiaOPTD/Authentication-App?node-id=0%3A1&t=WtEvLi4yooHabY5I-0
+Paso 4: Complete todas las historias de usuario
+Paso 5: Actualice README.md
+Paso 6: implemente su aplicación y envíe su solución
+Paso 7: Comparta su solución en Discord, Twitter y otras plataformas para solicitar comentarios
