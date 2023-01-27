@@ -15,8 +15,8 @@ body {
   max-width: 700px !important;
 }
 .avatar {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   object-fit: cover;
 }
 @media (min-width: 600px) {
@@ -24,7 +24,7 @@ body {
     height: 40px;
   }
   .avatar {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
 }
