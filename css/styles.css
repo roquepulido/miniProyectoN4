@@ -19,6 +19,42 @@ body {
   height: 30px;
   object-fit: cover;
 }
+.header__user__view h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.header__user__view h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.profile__title h2 {
+  font-weight: 400;
+}
+.profile__title p {
+  font-weight: 500;
+  font-size: 13px;
+}
+.profile__user__label span {
+  color: rgba(189, 189, 189, 1);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+}
+.profile__user__data span {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(51, 51, 51, 1);
+}
+.header__user__view a {
+  text-decoration: none;
+  color: rgba(45, 156, 219, 1);
+}
+.button__container a {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(130, 130, 130, 1);
+}
 @media (min-width: 600px) {
   .logodev {
     height: 40px;
@@ -27,4 +63,7 @@ body {
     width: 70px;
     height: 70px;
   }
+}
+.avatar__container {
+  position: relative;
 }

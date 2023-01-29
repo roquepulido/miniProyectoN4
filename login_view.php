@@ -47,7 +47,7 @@ include "./templates/headhtml.php";
                 </a>
             </div>
             <p class="font14 text-center">
-                Don’t have an account yet? <a href="./register.php">Register</a>
+                Don’t have an account yet? <a href="./register_view.php">Register</a>
             </p>
         </div>
         <footer class="d-flex justify-content-between mt-2">
@@ -55,10 +55,6 @@ include "./templates/headhtml.php";
                 <b><a href="https://github.com/roquepulido">roquepulido</a></b></span>
             <span class="font14"><a href="https://devchallenges.io/">devChallenges.io</a></span>
         </footer>
-        <div class="container my-5">
-            <p><b>User:</b> mmcgilmartin0@theatlantic.com</p>
-            <p><b>Password:</b> zSr95sVVB</p>
-        </div>
     </main>
 </div>
 <?php include("./templates/headhtml.php"); ?>
