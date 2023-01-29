@@ -2,6 +2,7 @@
 include "./db_connection.php";
 include("./templates/navbar.php");
 
+
 if (empty($_SESSION["login"])) {
     header("Location:./templates/404.php");
 } else {
@@ -78,6 +79,7 @@ navbar($user["name"],  $user["user_ima"]);
         <b><a href="https://github.com/roquepulido">roquepulido</a></b></span>
     <span class="font14"><a href="https://devchallenges.io/">devChallenges.io</a></span>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.0/dist/sweetalert2.all.min.js"></script>
 <script>
 const toggleAvarInput = () => {
     document.getElementById("avatar_upload").classList.toggle("visually-hidden");

@@ -1,5 +1,6 @@
-<?php
+<?php session_start();
 include("./templates/headhtml.php");
+
 ?>
 <div class="d-flex align-items-center vh-100">
     <main class="container log__container">

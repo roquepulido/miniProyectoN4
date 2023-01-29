@@ -3,7 +3,7 @@ if ($_SESSION["login"]) {
     header("Location:./user_view.php");
 }
 
-$errorLogin = "password o usario erroneo";
+$errorLogin = "Email o Password Erroneo";
 
 include "./templates/headhtml.php";
 ?>
