@@ -12,7 +12,7 @@ body {
   font-size: 14px;
 }
 .log__container {
-  max-width: 700px !important;
+  max-width: 600px !important;
 }
 .avatar {
   width: 30px;
@@ -55,15 +55,15 @@ body {
   font-size: 16px;
   color: rgba(130, 130, 130, 1);
 }
-@media (min-width: 600px) {
-  .logodev {
-    height: 40px;
-  }
-  .avatar {
-    width: 70px;
-    height: 70px;
-  }
-}
+
 .avatar__container {
   position: relative;
+}
+.titulo__register {
+  font-weight: 600;
+  font-size: 18px;
+}
+.subtitulo__register {
+  font-weight: 400;
+  font-size: 16px;
 }

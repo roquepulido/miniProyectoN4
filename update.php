@@ -17,7 +17,7 @@ if ($to_update != "") {
     $query = "UPDATE Users SET $to_update WHERE ID='" . $_SESSION["ID"] . "'";
     $ans["answer"] = $dataSQL = mysqli_query($db, $query) or die(mysqli_error($db));
 }
-if (isset($_FILES["avatar"])) {
+if ($_FILES["avatar"]["size"] > 0) {
     $temp_name = $_FILES["avatar"]["tmp_name"];
     $name_file = basename($_FILES["avatar"]["name"]);
     $destine = "$uploads_dir/$name_file";
