@@ -1,3 +1,0 @@
-- poner toast para update que al recibir marque ok y redireccione a user view
-- verificar estilo del register
-- preuvas de navbar cuando depliega el submenu
